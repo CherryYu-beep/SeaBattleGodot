@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://premap.tres" type="TileSet" id=1]
+[ext_resource path="res://premap.gd" type="Script" id=2]
+
+[node name="premap" type="TileMap"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 60, 60 )
+cell_custom_transform = Transform2D( 60, 0, 0, 60, 0, 0 )
+format = 1
+script = ExtResource( 2 )
